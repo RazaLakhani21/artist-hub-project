@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Artist 1",
+      "email": "artist1@example.com",
+      "password": "pass1",
+      "role": "artist",
+      "description": "I love painting and sketching.",
+      "image": "https://images.unsplash.com/photo-1561243083-de1e3c53d583?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "4",
+      "name": "Emily Carter",
+      "email": "emily.carter@example.com",
+      "password": "securePass4",
+      "role": "artist",
+      "description": "A passionate painter specializing in watercolors and landscapes.",
+      "image": "https://source.unsplash.com/500x500/?watercolor,landscape&sig=1"
+    },
+    {
+      "id": "5",
+      "name": "Liam Thompson",
+      "email": "liam.thompson@example.com",
+      "password": "securePass5",
+      "role": "artist",
+      "description": "A digital artist who loves creating vibrant characters and stories.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=5"
+    },
+    {
+      "id": "6",
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "password": "securePass6",
+      "role": "artist",
+      "description": "An illustrator and graphic designer with a love for fantasy themes.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=555"
+    },
+    {
+      "id": "7",
+      "name": "Noah Wilson",
+      "email": "noah.wilson@example.com",
+      "password": "securePass7",
+      "role": "artist",
+      "description": "An abstract painter drawing inspiration from everyday life.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=556"
+    },
+    {
+      "id": "8",
+      "name": "Olivia Smith",
+      "email": "olivia.smith@example.com",
+      "password": "securePass8",
+      "role": "artist",
+      "description": "A sculptor working with mixed media to express emotions.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=557"
+    },
+    {
+      "id": "9",
+      "name": "Ava Johnson",
+      "email": "ava.johnson@example.com",
+      "password": "securePass9",
+      "role": "artist",
+      "description": "A street artist focused on social justice themes.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=558"
+    },
+    {
+      "id": "10",
+      "name": "James Brown",
+      "email": "james.brown@example.com",
+      "password": "securePass10",
+      "role": "artist",
+      "description": "A photographer with a knack for capturing candid moments.",
+      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=559"
+    },
+    {
+      "id": "c8ec",
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "password": "passJohn",
+      "description": "Hey there! I'm John Doe, a specialist in photography and landscape painting.",
+      "image": "https://images.unsplash.com/photo-1703593693037-3f816218baa1?q=80&w=1998&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "role": "artist"
+    }
+  ]
+}
