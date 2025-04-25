@@ -1,11 +1,21 @@
-import './artistCard.module.css'
+import styles from "./artistCard.module.css";
 
-function ArtistCard({ name, category, ratings }) {
+function ArtistCard({ artist }) {
+  console.log("Artist Image", artist.img);
+
   return (
-    <div className="inline-block bg-emerald-50 text-center m-10 p-10">
-      <h1>{name}</h1>
-      <p>{category}</p>
-      <h4>{ratings}</h4>
+    <div className={styles.card}>
+      <img
+        className={styles.image}
+        src={
+          artist.img && artist.img.trim() !== ""
+            ? artist.img
+            : "https://via.placeholder.com/150"
+        }
+        alt={`Image of ${artist.name}`}
+      />
+      <h3 className={styles.name}>{artist.name || "Unknown Artist"}</h3>
+      <p className={styles.category}>{artist.category || "Category N/A"}</p>
     </div>
   );
 }

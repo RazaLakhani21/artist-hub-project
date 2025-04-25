@@ -23,7 +23,7 @@ const HomePage = () => {
                     {/* Example Artist Cards */}
                     <div className={styles.artistCard}>
                         <img
-                            src="https://via.placeholder.com/150"
+                            src="https://images.unsplash.com/photo-1585076800246-4562eb6d6f42?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Artist"
                             className={styles.artistImage}
                         />
@@ -35,7 +35,7 @@ const HomePage = () => {
                     </div>
                     <div className={styles.artistCard}>
                         <img
-                            src="https://via.placeholder.com/150"
+                            src="https://images.unsplash.com/photo-1648536426233-29776d89d6f3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Artist"
                             className={styles.artistImage}
                         />

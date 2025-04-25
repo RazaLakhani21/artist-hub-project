@@ -7,7 +7,7 @@
       "password": "pass1",
       "role": "artist",
       "description": "I love painting and sketching.",
-      "image": "https://images.unsplash.com/photo-1561243083-de1e3c53d583?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "img": "https://images.unsplash.com/photo-1561243083-de1e3c53d583?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "4",
@@ -16,7 +16,8 @@
       "password": "securePass4",
       "role": "artist",
       "description": "A passionate painter specializing in watercolors and landscapes.",
-      "image": "https://source.unsplash.com/500x500/?watercolor,landscape&sig=1"
+      "img": "https://i.pravatar.cc/150?img=22",
+      "image": "https://i.pravatar.cc/150?img=2"
     },
     {
       "id": "5",
@@ -25,7 +26,8 @@
       "password": "securePass5",
       "role": "artist",
       "description": "A digital artist who loves creating vibrant characters and stories.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=5"
+      "img": "https://i.pravatar.cc/150?img=12",
+      "image": "https://i.pravatar.cc/150?img=1"
     },
     {
       "id": "6",
@@ -34,7 +36,8 @@
       "password": "securePass6",
       "role": "artist",
       "description": "An illustrator and graphic designer with a love for fantasy themes.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=555"
+      "img": "https://images.unsplash.com/photo-1744179211676-f0536705fcd3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://i.pravatar.cc/150?img=50"
     },
     {
       "id": "7",
@@ -43,7 +46,7 @@
       "password": "securePass7",
       "role": "artist",
       "description": "An abstract painter drawing inspiration from everyday life.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=556"
+      "img": "https://images.unsplash.com/photo-1739387137414-e781a9cba0de?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "8",
@@ -52,7 +55,7 @@
       "password": "securePass8",
       "role": "artist",
       "description": "A sculptor working with mixed media to express emotions.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=557"
+      "img": "https://plus.unsplash.com/premium_photo-1744279081059-1d65178568b9?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "9",
@@ -61,7 +64,7 @@
       "password": "securePass9",
       "role": "artist",
       "description": "A street artist focused on social justice themes.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=558"
+      "img": "https://images.unsplash.com/photo-1734690237101-12746ed45a00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "10",
@@ -70,7 +73,7 @@
       "password": "securePass10",
       "role": "artist",
       "description": "A photographer with a knack for capturing candid moments.",
-      "image": "https://source.unsplash.com/500x500?portrait,artist&sig=559"
+      "img": "https://plus.unsplash.com/premium_photo-1669256681775-f1f710732cf0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "c8ec",
@@ -78,8 +81,17 @@
       "email": "john.doe@email.com",
       "password": "passJohn",
       "description": "Hey there! I'm John Doe, a specialist in photography and landscape painting.",
-      "image": "https://images.unsplash.com/photo-1703593693037-3f816218baa1?q=80&w=1998&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "img": "https://images.unsplash.com/photo-1703593693037-3f816218baa1?q=80&w=1998&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "role": "artist"
     }
+  ],
+  "bookings": [],
+  "reviews": [{
+    "id": 1,
+    "artistId": 3,
+    "customerName": "xyz",
+    "rating": 5,
+    "comment": "Amazing performance!"
+  }
   ]
 }

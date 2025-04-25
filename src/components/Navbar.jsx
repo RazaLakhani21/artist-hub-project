@@ -29,6 +29,15 @@ const Navbar = () => {
                         <Link to="/artists" className={styles.navbarLinks}>Artists</Link>
                     </li>
                     <li className={styles.navbarItem}>
+                    <Link to="/bookings" className={styles.navbarLinks}>View Bookings</Link>
+                    </li>
+                    <li className={styles.navbarItem}>
+                    <Link to="/admin/bookings" className={styles.navbarLinks}>Admin Bookings</Link>
+                    </li>
+                    <li className={styles.navbarItem}>
+                    <Link to="/my-bookings" className={styles.navbarLinks}>My Bookings</Link>
+                    </li>
+                    <li className={styles.navbarItem}>
                         <Link to="/login" className={styles.navbarLinks}>Login</Link>
                     </li>
                     <li className={styles.navbarItem}>
